@@ -19,7 +19,3 @@ app.use("/api/medibot", medibotRoutes);
 app.get("/", (req, res) => {
   res.send("MediBot backend running 🚀");
 });
-
-app.listen(PORT, () => {
-  console.log(`Server running at http://localhost:${PORT}`);
-});
